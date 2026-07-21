@@ -50,9 +50,11 @@ We chose v22.23.1 for stability.
 Next.js (the framework we use to build the translation site) runs on Node.js.
 npm is used to install Next.js and all its dependencies.
 
+```
 Stack relationship:
   our code (Next.js)
        ↓ runs on
     Node.js
        ↓ managed by
        fnm
+```
